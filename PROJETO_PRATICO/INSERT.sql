@@ -10,16 +10,16 @@ INSERT INTO tab_endereco (idendereco, cep, rua, cidade, bairro, estado, numero, 
 INSERT INTO tab_endereco (idendereco, cep, rua, cidade, bairro, estado, numero, complemento) VALUES (5, '18020-000', 'Rua Itavuvu', 'Sorocaba', 'Zona Norte', 'SP', 850, NULL);
 
 --- TAB_PESSOA 
-INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (1, '11122233344', 'Carlos Alberto Silva', TO_DATE('1985-03-15', 'YYYY-MM-DD'), 'M', '15991112222', 'Casado', '123456789012345', 'Ativo');
-INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (2, '22233344455', 'Ana Beatriz Rocha', TO_DATE('1990-07-22', 'YYYY-MM-DD'), 'F', '15992223333', 'Solteiro', '234567890123456', 'Ativo');
-INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (3, '33344455566', 'Ricardo Souza Melo', TO_DATE('1978-11-05', 'YYYY-MM-DD'), 'M', '15993334444', 'Divorciado', '345678901234567', 'Ativo');
-INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (4, '44455566677', 'Juliana Lima Costa', TO_DATE('1988-05-30', 'YYYY-MM-DD'), 'F', '15994445555', 'Casado', '456789012345688', 'Ativo');
-INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (5, '55566677788', 'Marcos Paulo Vieira', TO_DATE('1982-01-25', 'YYYY-MM-DD'), 'M', '15995556666', 'Solteiro', '567890123456789', 'Ativo');
-INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (6, '66677788899', 'Kauã Lucas Ferreira', TO_DATE('2018-04-12', 'YYYY-MM-DD'), 'M', '15996667777', 'Solteiro', '678901234567890', 'Ativo');
-INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (7, '77788899900', 'Mariana Dias Gomes', TO_DATE('2019-09-18', 'YYYY-MM-DD'), 'F', '15997778888', 'Solteiro', '789012345678901', 'Ativo');
-INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (8, '88899900011', 'Pedro Henrique Antunes', TO_DATE('2017-01-30', 'YYYY-MM-DD'), 'M', '15998889999', 'Solteiro', '890123456789012', 'Ativo');
-INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (9, '99900011122', 'Sofia Rodrigues Lima', TO_DATE('2016-06-14', 'YYYY-MM-DD'), 'F', '15999990000', 'Solteiro', '901234567890123', 'Ativo');
-INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (10, '12345678901', 'Enzo Gabriel Santos', TO_DATE('2020-11-23', 'YYYY-MM-DD'), 'M', '15991110000', 'Solteiro', '123012345678901', 'Ativo');
+INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (1, '11122233344', 'Carlos Alberto Silva', TO_DATE('1985-03-15', 'YYYY-MM-DD'), 'M', '15991112222', 'CASADO', '123456789012345', 'ATIVO');
+INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (2, '22233344455', 'Ana Beatriz Rocha', TO_DATE('1990-07-22', 'YYYY-MM-DD'), 'F', '15992223333', 'SOLTEIRO', '234567890123456', 'ATIVO');
+INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (3, '33344455566', 'Ricardo Souza Melo', TO_DATE('1978-11-05', 'YYYY-MM-DD'), 'M', '15993334444', 'DIVORCIADO', '345678901234567', 'ATIVO');
+INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (4, '44455566677', 'Juliana Lima Costa', TO_DATE('1988-05-30', 'YYYY-MM-DD'), 'F', '15994445555', 'CASADO', '456789012345688', 'ATIVO');
+INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (5, '55566677788', 'Marcos Paulo Vieira', TO_DATE('1982-01-25', 'YYYY-MM-DD'), 'M', '15995556666', 'SOLTEIRO', '567890123456789', 'ATIVO');
+INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (6, '66677788899', 'Kauã Lucas Ferreira', TO_DATE('2018-04-12', 'YYYY-MM-DD'), 'M', '15996667777', 'SOLTEIRO', '678901234567890', 'ATIVO');
+INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (7, '77788899900', 'Mariana Dias Gomes', TO_DATE('2019-09-18', 'YYYY-MM-DD'), 'F', '15997778888', 'SOLTEIRO', '789012345678901', 'ATIVO');
+INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (8, '88899900011', 'Pedro Henrique Antunes', TO_DATE('2017-01-30', 'YYYY-MM-DD'), 'M', '15998889999', 'SOLTEIRO', '890123456789012', 'ATIVO');
+INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (9, '99900011122', 'Sofia Rodrigues Lima', TO_DATE('2016-06-14', 'YYYY-MM-DD'), 'F', '15999990000', 'SOLTEIRO', '901234567890123', 'ATIVO');
+INSERT INTO tab_pessoa (idcadastro, cpf, nome, datanascimento, sexo, celular, estadocivil, numcns, statuscadastro) VALUES (10, '12345678901', 'Enzo Gabriel Santos', TO_DATE('2020-11-23', 'YYYY-MM-DD'), 'M', '15991110000', 'SOLTEIRO', '123012345678901', 'ATIVO');
 
 --- TAB_PERFIL
 INSERT INTO tab_perfil (idperfil, nome) VALUES (1, 'Administrador');
@@ -57,11 +57,11 @@ INSERT INTO tab_cbo (codigocbo, titulocbo) VALUES (411010, 'Assistente Administr
 INSERT INTO tab_cbo (codigocbo, titulocbo) VALUES (223810, 'Fonoaudiólogo');
 
 --- TAB_TERAPIA
-INSERT INTO tab_terapia (idterapia, data, descricao, statusterapia, modalidade) VALUES (1, SYSDATE, 'Sessão de Integração Sensorial', 'Agendada', 'Presencial Individual');
-INSERT INTO tab_terapia (idterapia, data, descricao, statusterapia, modalidade) VALUES (2, SYSDATE + 1, 'Análise do Comportamento Aplicada (ABA)', 'Agendada', 'Presencial Individual');
-INSERT INTO tab_terapia (idterapia, data, descricao, statusterapia, modalidade) VALUES (3, SYSDATE + 2, 'Terapia de Fala e Linguagem', 'Realizada', 'Presencial Individual');
-INSERT INTO tab_terapia (idterapia, data, descricao, statusterapia, modalidade) VALUES (4, SYSDATE + 3, 'Terapia Fonoaudiológica em Grupo', 'Agendada', 'Presencial Coletiva');
-INSERT INTO tab_terapia (idterapia, data, descricao, statusterapia, modalidade) VALUES (5, SYSDATE + 4, 'Avaliação Psicológica Coletiva', 'Agendada', 'Presencial Coletiva');
+INSERT INTO tab_terapia (idterapia, data, descricao, statusterapia, modalidade) VALUES (1, SYSDATE, 'Sessão de Integração Sensorial', 'AGENDADA', 'INDIVIDUAL');
+INSERT INTO tab_terapia (idterapia, data, descricao, statusterapia, modalidade) VALUES (2, SYSDATE + 1, 'Análise do Comportamento Aplicada (ABA)', 'AGENDADA', 'INDIVIDUAL');
+INSERT INTO tab_terapia (idterapia, data, descricao, statusterapia, modalidade) VALUES (3, SYSDATE + 2, 'Terapia de Fala e Linguagem', 'CONCLUIDA', 'INDIVIDUAL');
+INSERT INTO tab_terapia (idterapia, data, descricao, statusterapia, modalidade) VALUES (4, SYSDATE + 3, 'Terapia Fonoaudiológica em Grupo', 'AGENDADA', 'COLETIVA');
+INSERT INTO tab_terapia (idterapia, data, descricao, statusterapia, modalidade) VALUES (5, SYSDATE + 4, 'Avaliação Psicológica Coletiva', 'AGENDADA', 'COLETIVA');
 
 --- TAB_ESPECIALIDADE (A nova tabela do Modelo!)
 INSERT INTO tab_especialidade (idespecialidade, nome, descricao) VALUES (1, 'Neuropediatria', 'Foco no desenvolvimento neurologico infantil');
@@ -93,11 +93,11 @@ INSERT INTO tab_profissional (idprofissional, idcargo) VALUES (5, 5); -- Marcos 
 INSERT INTO tab_especialista (idespecialista, registroconselho) VALUES (4, 'CRP-06/12345');
 INSERT INTO tab_especialista (idespecialista, registroconselho) VALUES (5, 'CREFITO-3/6789');
 
---- ESPECIALIDADE_PROFISSIONAL (A associativa que mapeia as especialidades técnicas dos especialistas)
-INSERT INTO especialidade_profissional (idespecialidade, idespecialista) VALUES (3, 4); -- Juliana tem especialidade em ABA
-INSERT INTO especialidade_profissional (idespecialidade, idespecialista) VALUES (5, 4); -- Juliana também atua em Psicopedagogia
-INSERT INTO especialidade_profissional (idespecialidade, idespecialista) VALUES (2, 5); -- Marcos tem especialidade em Integração Sensorial
-INSERT INTO especialidade_profissional (idespecialidade, idespecialista) VALUES (1, 5); -- Marcos também possui especialização em Neuropediatria
+--- especialista_profissional (A associativa que mapeia as especialidades técnicas dos especialistas)
+INSERT INTO especialista_profissional (idespecialidade, idespecialista) VALUES (3, 4); -- Juliana tem especialidade em ABA
+INSERT INTO especialista_profissional (idespecialidade, idespecialista) VALUES (5, 4); -- Juliana também atua em Psicopedagogia
+INSERT INTO especialista_profissional (idespecialidade, idespecialista) VALUES (2, 5); -- Marcos tem especialidade em Integração Sensorial
+INSERT INTO especialista_profissional (idespecialidade, idespecialista) VALUES (1, 5); -- Marcos também possui especialização em Neuropediatria
 
 --- TAB_USUARIO (Garante acesso ao sistema para todos os funcionários 1 a 5 | PACIENTES NÃO ENTRAM)
 INSERT INTO tab_usuario (idcadastro, senha) VALUES (1, 'hash_senha_gerente');
@@ -107,11 +107,11 @@ INSERT INTO tab_usuario (idcadastro, senha) VALUES (4, 'hash_senha_juliana_psic'
 INSERT INTO tab_usuario (idcadastro, senha) VALUES (5, 'hash_senha_marcos_to');
 
 --- TAB_PACIENTE (Isolados com IDs de 6 a 10)
-INSERT INTO tab_paciente (idpaciente, idescola, cidprincipal, statuspaciente, datacadastro, convenio, tipoentrada) VALUES (6, 1, 'F84.0', 'Ativo', SYSDATE, 'Unimed', 'Encaminhamento');
-INSERT INTO tab_paciente (idpaciente, idescola, cidprincipal, statuspaciente, datacadastro, convenio, tipoentrada) VALUES (7, 2, 'F90.0', 'Ativo', SYSDATE, 'Particular', 'Demanda Espontânea');
-INSERT INTO tab_paciente (idpaciente, idescola, cidprincipal, statuspaciente, datacadastro, convenio, tipoentrada) VALUES (8, 3, 'F80.0', 'Ativo', SYSDATE, 'SulAmérica', 'Encaminhamento');
-INSERT INTO tab_paciente (idpaciente, idescola, cidprincipal, statuspaciente, datacadastro, convenio, tipoentrada) VALUES (9, 1, 'F81.0', 'Ativo', SYSDATE, 'Bradesco Saúde', 'Judicial');
-INSERT INTO tab_paciente (idpaciente, idescola, cidprincipal, statuspaciente, datacadastro, convenio, tipoentrada) VALUES (10, 4, 'G80.0', 'Ativo', SYSDATE, 'Particular', 'Encaminhamento');
+INSERT INTO tab_paciente (idpaciente, idescola, cidprincipal, statuspaciente, datacadastro, convenio, tipoentrada) VALUES (6, 1, 'F84.0', 'ATIVO', SYSDATE, 1, 'MUNICIPAL');
+INSERT INTO tab_paciente (idpaciente, idescola, cidprincipal, statuspaciente, datacadastro, convenio, tipoentrada) VALUES (7, 2, 'F90.0', 'ATIVO', SYSDATE, 0, 'MUNICIPAL');
+INSERT INTO tab_paciente (idpaciente, idescola, cidprincipal, statuspaciente, datacadastro, convenio, tipoentrada) VALUES (8, 3, 'F80.0', 'ATIVO', SYSDATE, 0, 'MUNICIPAL');
+INSERT INTO tab_paciente (idpaciente, idescola, cidprincipal, statuspaciente, datacadastro, convenio, tipoentrada) VALUES (9, 1, 'F81.0', 'ATIVO', SYSDATE, 0, 'MUNICIPAL');
+INSERT INTO tab_paciente (idpaciente, idescola, cidprincipal, statuspaciente, datacadastro, convenio, tipoentrada) VALUES (10, 4, 'G80.0', 'ATIVO', SYSDATE, 1, 'MUNICIPAL');
 
 --- TAB_RESPONSAVEL (Funcionários ou terceiros atuando como pais. Usaremos IDs 1 a 3 para simular pais/mães)
 INSERT INTO tab_responsavel (idresponsavel, ocupacao) VALUES (1, 'Engenheiro Civil');
