@@ -1,6 +1,6 @@
 # 🗄️ Banco de Dados & Modelagem - Atividades Acadêmicas
 
-![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-Green)
 
 Este repositório foi criado para centralizar meus estudos e atividades práticas na área de Banco de Dados. Ele armazena o progresso de scripts SQL, modelagens de diagramas e exercícios distribuídos ao longo do curso de **Análise e Desenvolvimento de Sistemas**.
 
